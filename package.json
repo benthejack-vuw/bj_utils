@@ -1,0 +1,21 @@
+{
+  "name": "bj_utils",
+  "version": "1.0.0",
+  "description": "Ben Jack's common library utils",
+  "main": "lib/bj_utils.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Jack",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "path": "^0.12.7",
+    "ts-loader": "^2.0.1",
+    "webpack": "^2.2.1"
+  }
+}

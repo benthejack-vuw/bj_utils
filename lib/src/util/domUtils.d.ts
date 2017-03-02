@@ -1,0 +1,10 @@
+export declare function editDomElementAttr(id: string, attr: string, value: any): void;
+export declare function fetchJSONFile(path: string, callback: Function): void;
+export declare function dataURLfromImage(image: HTMLImageElement): string;
+export declare function downloadTextAsFile(filename: string, text: string): void;
+export declare function selectImage(): Promise<File>;
+export declare function selectFile(): Promise<File>;
+export declare function readFileAsJSON(file: File): Promise<string>;
+export declare function readImageAsURL(file: File): Promise<string>;
+export declare function buildImageFromURL(url: string): Promise<HTMLImageElement>;
+export declare function downloadCanvasImage(canvas: HTMLCanvasElement, name: string, type?: string): void;
