@@ -2,10 +2,10 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-  entry: ["babel-polyfill", path.join(__dirname, "src/bj_utils.ts")],
+  entry: [path.join(__dirname, "src/bjUtils.ts")],
   output: {
     path: path.resolve(__dirname, "lib"),
-    filename: "bj_utils.min.js"
+    filename: "bjUtils.min.js"
   },
   resolve: {
     extensions: [".js", ".ts"]

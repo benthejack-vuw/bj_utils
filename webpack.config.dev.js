@@ -1,10 +1,10 @@
 const path = require("path");
 
 module.exports = {
-  entry: ["babel-polyfill", path.join(__dirname, "src/bj_utils.ts")],
+  entry: [path.join(__dirname, "src/bjUtils.ts")],
   output: {
     path: __dirname,
-    filename: "lib/bj_utils.min.js"
+    filename: "lib/bjUtils.min.js"
   },
   resolve: {
     extensions: ["", ".js", ".ts"]

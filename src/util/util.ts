@@ -1,7 +1,8 @@
 import * as DomUtils from "./domUtils"
-import * as DrawingUtils from "./domUtils"
-import * as MathUtils from "./domUtils"
+import * as DrawingUtils from "./drawingUtils"
+import * as BJMath from "./mathUtils"
 
 export{DomUtils}
 export{DrawingUtils}
-export{MathUtils}
+export{BJMath}
+export * from "./transform"
