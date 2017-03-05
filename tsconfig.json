@@ -14,5 +14,6 @@
     "sourceMap": true
   },
   "exclude": ["node_modules", "lib"],
+  "filesGlob": ["!lib/**/*.d.ts"],
   "externalTranspiler": "babel"
 }
