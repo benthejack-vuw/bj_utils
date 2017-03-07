@@ -1,6 +1,6 @@
 {
   "name": "bj-utils",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Ben Jack's common library utils",
   "main": "lib/bjUtils.js",
   "typings": "lib/bjUtils",
