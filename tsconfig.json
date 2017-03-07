@@ -1,19 +1,17 @@
 {
   "version": "2.2.1",
   "compilerOptions": {
-
     "target": "ES2015",
-    "module": "commonjs",
+    "module": "es6",
     "noImplicitAny": false,
     "removeComments": true,
     "noLib": false,
     "preserveConstEnums": true,
     "declaration": true,
     "suppressImplicitAnyIndexErrors": true,
-    "outDir": "./lib",
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir":"lib/"
   },
   "exclude": ["node_modules", "lib"],
-  "filesGlob": ["!lib/**/*.d.ts"],
-  "externalTranspiler": "babel"
+  "filesGlob": ["!lib/**/*.d.ts"]
 }
